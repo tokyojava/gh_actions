@@ -17,9 +17,5 @@ jobs:
           body: |
             Thank you for opening this issue! We will look into it as soon as possible.
             - With Github **Markdown** :sparkles:
-            - created y [create-or-update-comment][1]
-
-            [1]:test123
-
           reactions: '+1'
 
