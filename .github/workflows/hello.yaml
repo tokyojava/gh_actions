@@ -20,6 +20,8 @@ jobs:
       - name: List files
         run: ls -la
         shell: bash
+      - name: Sleep
+        run: sleep 20
   goodby:
     runs-on: ubuntu-latest
     steps:
