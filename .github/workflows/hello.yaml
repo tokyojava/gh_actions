@@ -22,7 +22,7 @@ jobs:
         shell: bash
       - name: Hello world action step
         id: hello
-        uses: tokyojava/gh_actions@main
+        uses: ./
         with:
           who-to-greet: Mona the Octocat
 
@@ -32,7 +32,7 @@ jobs:
 
       - name: Hello world action step with error
         id: hello2
-        uses: tokyojava/gh_actions@main
+        uses: ./
         with:
           who-to-greet: aa
       
