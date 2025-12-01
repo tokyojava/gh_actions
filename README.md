@@ -1,0 +1,1 @@
+[![Hello world workflow](https://github.com/tokyojava/gh_actions/actions/workflows/hello.yaml/badge.svg?branch=main)](https://github.com/tokyojava/gh_actions/actions/workflows/hello.yaml)
