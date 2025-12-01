@@ -20,6 +20,22 @@ jobs:
       - name: List files
         run: ls -la
         shell: bash
+      - name: Hello world action step
+        id: hello
+        uses: tokyojava/gh_actions
+        with:
+          who-to-greet: Mona the Octocat
+
+      # Use the output from the `hello` step
+      - name: Get the output time
+        run: echo "The time was ${{ steps.hello.outputs.time }}"
+
+      - name: Hello world action step with error
+        id: hello
+        uses: tokyojava/gh_actions
+        with:
+          who-to-greet: aa
+          
   goodby:
     runs-on: ubuntu-latest
     steps:
